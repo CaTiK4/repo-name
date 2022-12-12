@@ -3363,3 +3363,12 @@ details+details {
 details[open] {
   min-height: 50px;
 }
+
+.BTN_ForQuiz{
+  display: inline-block; 
+  background: #57aaf1; 
+  color: #fff; 
+  padding: 1rem 1.5rem; 
+  text-decoration: none; 
+  border-radius: 3px;
+}
