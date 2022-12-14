@@ -1162,6 +1162,7 @@ input::placeholder {
 
 #hud {
   display: flex;
+  display: none;
   justify-content: space-between;
 }
 

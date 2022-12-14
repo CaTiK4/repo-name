@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Какие имена переменных являются подходящими для языка С# ",
+      "choice1": "#PersonName#",
+      "choice2": "1Star",
+      "choice3": "Bad_Var",
+      "choice4": "Xlebushek",
+      "answer": 4
+    },
+    {
+      "question": "На C# НЕЛЬЗЯ создавать:",
+      "choice1": "Мобильные приложения",
+      "choice2": "Сайты для всех браузеров и платформ",
+      "choice3": "Программы для Windows",
+      "choice4": "Программы для Linux",
+      "answer": 2
+    },
+    {
+      "question": "Как называется основная IDE, использующаяся для создания программ на языке C#",
+      "choice1": "Visual studio",
+      "choice2": "Android-studio",
+      "choice3": "Visual Code",
+      "choice4": "Visual Maya",
+      "answer": 1
+    }
+  ]

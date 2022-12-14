@@ -23,9 +23,27 @@
 		</div>
 	</div>
 
-
-
 	<div class="plate" id="plate2" style = "display: none;">
+		<div class="container">
+			<div id="game" class="justify-center flex-column">
+			  <div id="hud">
+				<div id="hud-item">
+				  <p id="progressText" class="hud-prefix">
+					Question
+				  </p>
+				  <div id="progressBar">
+					<div id="progressBarFull"></div>
+				  </div>
+				</div>
+				<div id="hud-item">
+				  <p class="hud-prefix">
+					Правильных ответов:
+				  </p>
+				  <h1 class="hud-main-text" id="score">
+					0
+				  </h1>
+				</div>
+			  </div>
 		<div class="plate-header">
 			<div class="plate-header__icon">
 				<img src="img/icons/list.png" alt="Icon">
@@ -33,116 +51,39 @@
 			<div class="plate-header__title">Тест №2</div>
 		</div>
 		<div class="plate-content">
-			<h2 class="title-main">Как называется основная IDE, использующаяся для создания программ на языке C#</h2>
+			<h2 class="title-main" id="question">
+				
+			</h2>
 			<div class="radio-group">
 				<label class="radio-block">
 					<input type="radio" name="radio-group" class="radio-block__real">
 					<div class="radio-block__fake"></div>
-					<div class="radio-block__text">Visual studio </div>
+					<div class="radio-block__text" data-number="1">
+						<p class="choice-text" data-number="1">Choice 1</p>
+					</div>
 				</label>
 				<label class="radio-block radio-block--active">
 					<input type="radio" name="radio-group" class="radio-block__real">
 					<div class="radio-block__fake"></div>
-					<div class="radio-block__text">Android-studio</div>
+					<div class="radio-block__text">
+						<p class="choice-text" data-number="2">Choice 2</p>
+					</div>
 				</label>
 				<label class="radio-block">
 					<input type="radio" name="radio-group" class="radio-block__real">
 					<div class="radio-block__fake"></div>
-					<div class="radio-block__text">Visual Maya</div>
-				</label>
-				
-
-			</div>
-		</div>
-		<div class="plate-footer">
-			<div class="plate-footer__progress">
-
-				<div class="progress">
-					<div class="progress__label">
-						Готово: <strong><span class="progressNumber"> 0% </span></strong>
+					<div class="radio-block__text">
+						<p class="choice-text" data-number="3">Choice 3</p>
 					</div>
-					<div class="progress__line-wrapper">
-						<div class="progress__line-bar" style="width: 0%;"></div>
+				</label>
+				<label class="radio-block">
+					<input type="radio" name="radio-group" class="radio-block__real">
+					<div class="radio-block__fake"></div>
+					<div class="radio-block__text">
+						<p class="choice-text" data-number="4">Choice 4</p>
 					</div>
-				</div>
-			</div>
-			<div class="plate-footer__buttons">
-				<a href="#" class="button button--back">Назад</a>
-				<a href="#" class="button button--next">Далее</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="plate" id="plate3" style = "display: none;">
-		<div class="plate-header">
-			<div class="plate-header__icon">
-				<img src="img/icons/list.png" alt="Icon">
-			</div>
-			<div class="plate-header__title">Ваш уровень знания языка программирования C#</div>
-		</div>
-		<div class="plate-content">
-			<h2 class="title-main">Какие имена переменных являются подходящими для языка С#</h2>
-			<div class="checkbox-group">
-
-				<label class="checkbox-block">
-					<input type="checkbox" name="radio-group" class="checkbox-block__real">
-					<div class="checkbox-block__fake"></div>
-					<div class="checkbox-block__text">#PersonName#</div>
-				</label>
-				<label class="checkbox-block checkbox-block--active">
-					<input type="checkbox" name="radio-group" class="checkbox-block__real">
-					<div class="checkbox-block__fake"></div>
-					<div class="checkbox-block__text">1Star</div>
-				</label>
-				<label class="checkbox-block">
-					<input type="checkbox" name="radio-group" class="checkbox-block__real">
-					<div class="checkbox-block__fake"></div>
-					<div class="checkbox-block__text">Bad_Var </div>
 				</label>
 			</div>
-		</div>
-
-		<div class="plate-footer">
-			<div class="plate-footer__progress">
-
-				<div class="progress">
-					<div class="progress__label">
-						Готово: <strong>
-						<span class="progressNumber">50%  </span></strong>
-					</div>
-					<div class="progress__line-wrapper">
-						<div class="progress__line-bar" style="width: 50%;"></div>
-					</div>
-				</div>
-			</div>
-			<div class="plate-footer__buttons">
-				<a href="#" class="button button--back">Назад</a>
-				<a href="#" class="button button--next">Далее</a>
-			</div>
-		</div>
-	</div>
-
-
-
-	
-		
-	
-	
-
-	<div class="plate" id="plate4" style="display: none;">
-		<div class="cover-content-wrapper">
-			<div class="cover-content">
-
-				<img class="title-img" width="70" src="img/icons/clapping.svg" alt="Отлично! Последний шаг!">
-				<div class="title">Отлично! Вот ваши результаты!</div>
-
-				<a class="BTN_ForQuiz" href="/practice.html">Вернуться к тестам</a>
-
-				
-
-			</div>
-		</div>
-	</div>
 
 
 	
@@ -150,6 +91,7 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="/Tests/Test2/Game2.js"></script>
 </body>
 
 </html>

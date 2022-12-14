@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-fetch('questions.json')
+fetch('Questions3.json')
     .then((res) => {
         return res.json();
     })
@@ -38,7 +38,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('end.html');
+        return window.location.assign('end3.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
