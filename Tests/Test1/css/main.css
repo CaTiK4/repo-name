@@ -1188,3 +1188,24 @@ input::placeholder {
   background-color: #56a5eb;
   width: 0%;
 }
+.otctup{
+  margin: 0%;
+}
+.text-norm{
+  font-size: 20px;
+  text-align: justify;
+  
+}
+
+.PositionForBlock1{
+  position: absolute;
+  left: 1050px;
+  width: 200px;
+  height: 120px;
+}
+.PositionForBlock2{
+  position: absolute;
+  right: 1050px;
+  width: 200px;
+  height: 120px;
+}

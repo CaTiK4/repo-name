@@ -1,26 +1,26 @@
 [
     {
-      "question": "C# приложения запускаются ",
-      "choice1": "С помощью Java",
-      "choice2": "Только на Linux",
-      "choice3": "На .Net Framework",
-      "choice4": "С помощью cmd",
+      "question": "Как сделать инкрементацию числа?",
+      "choice1": "—",
+      "choice2": "%%",
+      "choice3": "++",
+      "choice4": "!=",
       "answer": 3
     },
     {
-      "question": "На C# НЕЛЬЗЯ создавать:",
-      "choice1": "Мобильные приложения",
-      "choice2": "Сайты для всех браузеров и платформ",
-      "choice3": "Программы для Windows",
-      "choice4": "Программы для Linux",
-      "answer": 2
+      "question": "Какой метод возвращает указанное число, возведенное в указанную степень?",
+      "choice1": "Pow",
+      "choice2": "Exp",
+      "choice3": "Sqrt",
+      "choice4": "DivRem",
+      "answer": 1
     },
     {
-      "question": "Как называется основная IDE, использующаяся для создания программ на языке C#",
+      "question": "Как называется основная IDE, использующаяся для создания программ на языке C#?",
       "choice1": "Visual studio",
-      "choice2": "Android-studio",
-      "choice3": "Visual Code",
-      "choice4": "Visual Maya",
+      "choice2": "Кумир",
+      "choice3": "Xcode",
+      "choice4": "Anaconda",
       "answer": 1
     }
   ]

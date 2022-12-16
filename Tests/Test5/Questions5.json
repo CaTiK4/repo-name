@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Чему будет равен с, если int a = 0; int c = a—;",
+      "choice1": "Null",
+      "choice2": "-1",
+      "choice3": "1",
+      "choice4": "0",
+      "answer": 4
+    },
+    {
+      "question": "Чему будет равен с, если int a = 10; int b = 4; int c = a % b;?",
+      "choice1": "1",
+      "choice2": "3",
+      "choice3": "11",
+      "choice4": "2",
+      "answer": 4
+    },
+    {
+      "question": "Обозначение оператора «И»",
+      "choice1": "&",
+      "choice2": "and",
+      "choice3": "!",
+      "choice4": "&&",
+      "answer": 4
+    }
+  ]

@@ -1,26 +1,26 @@
 [
     {
-      "question": "C# приложения запускаются ",
-      "choice1": "С помощью Java",
-      "choice2": "Только на Linux",
-      "choice3": "На .Net Framework",
-      "choice4": "С помощью cmd",
+      "question": " Как сделать декрементация числа? ",
+      "choice1": "++",
+      "choice2": "!=",
+      "choice3": "—",
+      "choice4": "%%",
       "answer": 3
     },
     {
-      "question": "На C# НЕЛЬЗЯ создавать:",
-      "choice1": "Мобильные приложения",
-      "choice2": "Сайты для всех браузеров и платформ",
-      "choice3": "Программы для Windows",
-      "choice4": "Программы для Linux",
+      "question": "Как найти квадратный корень из числа x?",
+      "choice1": "Sqrt(x)",
+      "choice2": "Math.Sqrt(x);",
+      "choice3": "Arifmetic.sqrt(x);",
+      "choice4": "Summ.Koren(x);",
       "answer": 2
     },
     {
-      "question": "Как называется основная IDE, использующаяся для создания программ на языке C#",
-      "choice1": "Visual studio",
-      "choice2": "Android-studio",
-      "choice3": "Visual Code",
-      "choice4": "Visual Maya",
+      "question": "Обозначение оператора «ИЛИ»",
+      "choice1": "||",
+      "choice2": "Or",
+      "choice3": "!",
+      "choice4": "!=",
       "answer": 1
     }
   ]

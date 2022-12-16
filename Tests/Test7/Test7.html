@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="/Tests/Test4/css/main.css" />
+
+  </head>
+  <body>
+
+    <div class="plate" id="plate1" style = "display: none;">
+      <div class="cover-content-wrapper">
+        <div class="cover-content">
+          <img class="title-img" src="img/pictures/html.png" alt="HTML">
+          <div class="title">Определи свой уровень знания языка программирования C#</div>
+          <p>Ответь на серию вопросов и получи оценку знаний</p>
+          <a href="#" class="button button--first">Пройти тест</a>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="plate" id="plate2" style = "display: none;">
+      <div class="container">
+        <div id="game" class="justify-center flex-column">
+          <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+            Question
+            </p>
+            <div id="progressBar">
+            <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+            Правильных ответов:
+            </p>
+            <h1 class="hud-main-text" id="score">
+            0
+            </h1>
+          </div>
+          </div>
+      <div class="plate-header">
+        <div class="plate-header__icon">
+          <img src="img/icons/list.png" alt="Icon">
+        </div>
+        <div class="plate-header__title">Тест №1</div>
+      </div>
+      <div class="plate-content">
+        <h2 class="title-main" id="question">
+          
+        </h2>
+        <div class="radio-group">
+          <label class="radio-block">
+            <input type="radio" name="radio-group" class="radio-block__real">
+            <div class="radio-block__fake"></div>
+            <div class="radio-block__text" data-number="1">
+              <p class="choice-text" data-number="1">Choice 1</p>
+            </div>
+          </label>
+          <label class="radio-block radio-block--active">
+            <input type="radio" name="radio-group" class="radio-block__real">
+            <div class="radio-block__fake"></div>
+            <div class="radio-block__text">
+              <p class="choice-text" data-number="2">Choice 2</p>
+            </div>
+          </label>
+          <label class="radio-block">
+            <input type="radio" name="radio-group" class="radio-block__real">
+            <div class="radio-block__fake"></div>
+            <div class="radio-block__text">
+              <p class="choice-text" data-number="3">Choice 3</p>
+            </div>
+          </label>
+          <label class="radio-block">
+            <input type="radio" name="radio-group" class="radio-block__real">
+            <div class="radio-block__fake"></div>
+            <div class="radio-block__text">
+              <p class="choice-text" data-number="4">Choice 4</p>
+            </div>
+          </label>
+        </div>
+        <script src="/Tests/Test7/Game7.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>

@@ -4,23 +4,23 @@
       "choice1": "#PersonName#",
       "choice2": "1Star",
       "choice3": "Bad_Var",
-      "choice4": "Xlebushek",
+      "choice4": "name",
       "answer": 4
     },
     {
-      "question": "На C# НЕЛЬЗЯ создавать:",
-      "choice1": "Мобильные приложения",
-      "choice2": "Сайты для всех браузеров и платформ",
-      "choice3": "Программы для Windows",
-      "choice4": "Программы для Linux",
-      "answer": 2
+      "question": "Каждое консольное приложение на C# должно содержать",
+      "choice1": "Переменные",
+      "choice2": "Ввод - вывод ",
+      "choice3": "Метод Main",
+      "choice4": "Файл .git",
+      "answer": 3
     },
     {
-      "question": "Как называется основная IDE, использующаяся для создания программ на языке C#",
-      "choice1": "Visual studio",
-      "choice2": "Android-studio",
-      "choice3": "Visual Code",
-      "choice4": "Visual Maya",
-      "answer": 1
+      "question": "Какой тип имеет переменная temp? Var temp = 14.55",
+      "choice1": "Integer",
+      "choice2": "Boolean",
+      "choice3": "Double",
+      "choice4": "String",
+      "answer": 3
     }
   ]

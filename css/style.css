@@ -3365,7 +3365,27 @@ details[open] {
 }
 
 .BTN_ForQuiz{
-  display: inline-block; 
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #d4d4d4;
+  height: 44px;
+  padding: 9px 30px 0;
+  border: 0;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  background-color: #4458dc; 
+  background-image: linear-gradient(to right, #FF5000 0%, #c22828be 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+}
+.colorForSite{
+  color: orangered;
+}
+.BTN_ForPract{
+  width: 300px; height: 150px; border: 1px solid black; background: red;
   background: #57aaf1; 
   color: #fff; 
   padding: 1rem 1.5rem; 

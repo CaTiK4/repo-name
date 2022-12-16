@@ -1,0 +1,26 @@
+[
+    {
+      "question": "Какие типы переменных существуют:",
+      "choice1": " int, char, bool, float, double",
+      "choice2": " int, char, bool, string",
+      "choice3": "Нет верного ответа",
+      "choice4": "Оба варианта верны",
+      "answer": 4
+    },
+    {
+      "question": "Какой оператор возвращает значение из метода:",
+      "choice1": " end",
+      "choice2": "return ",
+      "choice3": " out",
+      "choice4": "break",
+      "answer": 2
+    },
+    {
+      "question": "Какой тип переменной используется в коде: int a = 5:",
+      "choice1": "Знаковое 32-бит целое",
+      "choice2": "Знаковое 8-бит целое",
+      "choice3": "Знаковое 64-бит целое",
+      "choice4": "Знаковое 128-бит целое",
+      "answer": 1
+    }
+  ]
